@@ -123,9 +123,6 @@ describe('Stanza class', () => {
   it('should throw an exception when instantiated with 0 verses', () => {
     expect(() => new Stanza([])).toThrow(InvalidStanzaException);
   });
-  it('should throw an exception when instantiated with null verses', () => {
-    expect(() => new Stanza(null)).toThrow(InvalidStanzaException);
-  });
 
   describe('getStanzaText function', () => {
     it('should return a stanza text when called', () => {

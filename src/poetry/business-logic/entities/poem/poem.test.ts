@@ -28,21 +28,9 @@ describe('Poem class', () => {
     );
   });
 
-  it('should throw an exception  when instantiated with one stanza, title and no author', () => {
+  it('should throw an exception  when instantiated with one stanza, author and empty title', () => {
     const verseOf15Character = 'Je me figure ce';
-    const title = 'Le bleu écarlate';
-    const author = null;
-    const verse1 = new Verse(verseOf15Character);
-    const verse2 = new Verse(verseOf15Character);
-    const stanza = new Stanza([verse1, verse2]);
-    expect(() => new Poem(title, author, [stanza])).toThrow(
-      InvalidPoemException,
-    );
-  });
-
-  it('should throw an exception  when instantiated with one stanza, author no title', () => {
-    const verseOf15Character = 'Je me figure ce';
-    const title = null;
+    const title = '';
     const author = 'Armel Dubois';
     const verse1 = new Verse(verseOf15Character);
     const verse2 = new Verse(verseOf15Character);
@@ -53,15 +41,9 @@ describe('Poem class', () => {
   });
 
   it('should throw an exception  when instantiated with 0 stanza, author, title', () => {
-    const title = null;
+    const title = 'azerty';
     const author = 'Armel Dubois';
     expect(() => new Poem(title, author, [])).toThrow(InvalidPoemException);
-  });
-
-  it('should throw an exception  when instantiated with null stanza, author, title', () => {
-    const title = null;
-    const author = 'Armel Dubois';
-    expect(() => new Poem(title, author, null)).toThrow(InvalidPoemException);
   });
 
   describe('getPoemText function', () => {

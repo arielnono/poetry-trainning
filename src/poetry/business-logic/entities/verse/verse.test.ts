@@ -16,7 +16,7 @@ describe('Verse class', () => {
   it('should throw an InvalidVerseException when instantiated with a string having length less than 15', () => {
     expect(() => new Verse('azerty')).toThrow(InvalidVerseException);
   });
-  it('should throw an InvalidVerseException when instantiated with a null string', () => {
-    expect(() => new Verse(null)).toThrow(InvalidVerseException);
+  it('should throw an InvalidVerseException when instantiated with an empty string', () => {
+    expect(() => new Verse('')).toThrow(InvalidVerseException);
   });
 });
