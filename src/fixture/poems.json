@@ -1,0 +1,87 @@
+{
+  "poemes": [
+    {
+      "titre": "Amour",
+      "autheur": "Pierre de Ronsard",
+      "poeme": [
+        {
+          "strophes": [
+            "Jà du prochain hiver je prévois la tempête,",
+            "Jà cinquante et six ans ont neigé sur ma tête."
+          ]
+        },
+        {
+          "strophes": [
+            "Et de prendre congé du plus beau de mes jours.",
+            "Villeroy, si bien que nulle envie"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "OÙ NOTRE AMOUR A VOULU NAÎTRE",
+      "autheur": "Emile Verhaeren",
+      "poeme": [
+        {
+        "strophes": [
+            "Dans la maison où notre amour a voulu naître,",
+            "Avec les meubles chers peuplant l'ombre et les coins,",
+            "Où nous vivons à deux, ayant pour seuls témoins",
+            "Les roses qui nous regardent par les fenêtres."
+        ]},
+        {
+          "strophes": [
+          "Il est des jours choisis, d'un si doux réconfort,",
+          "Et des heures d'été, si belles de silence,",
+          "Que j'arrête parfois le temps qui se balance,",
+          "Dans l'horloge de chêne, avec son disque d'or."
+          ]
+        },
+        {
+          "strophes": [
+            "Alors l'heure, le jour, la nuit est si bien nôtre",
+            "Que le bonheur qui nous frôle n'entend plus rien,",
+            "Sinon les battements de ton coeur et du mien",
+            "Qu'une étreinte soudaine approche l'un de l'autre."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "PARNASSE",
+      "autheur": "JACQUES AUDIBERTI",
+      "poeme": [
+        {
+        "strophes": [
+          "Mon train filait avec cette allure qu'il prend",
+          "pour fuir, nocturne, l'heure où grouille le parent.",
+          "Il traversait une forêt. Contre les baies",
+          "elle appendait un bloc de cimes recourbées,",
+          "tapisserie obscure aux dévidoirs profonds.",
+          "Quoique ganache en cerfs, sentiers, cèpes et fonts,",
+          "moi, pourtant, je savais, à trois jours de la voie,",
+          "un arbre, que jamais pour de bon je ne voie !"
+        ]},
+        {
+          "strophes": [
+          "Il porte, sur son tronc funèbre, un chapelet",
+          "de masques ciselés à coups de pistolet",
+          "par le nègre en rupture et le bûcheron ivre.",
+          "Je me rendai pour rapporter, car il faut vivre,",
+          "à Melun, qui n'est pas un lieu phénoménal.",
+          "Là, sous une muraille, au bord de tel canal,",
+          "quelque chose s'était passé, mais quoi ? La veille",
+          "plutôt que dépouiller la presse, humble merveille,"
+          ]},
+          {
+            "strophes": [
+          "j'avais, fruit sec du rêve et du nombre, établi",
+          "combien de tomes lus peut supporter mon lit",
+          "sans crouler aux lamas qui bêlent sous son ventre.",
+          "J'arrivai dans Melun où, tout de suite, m'entre",
+          "la ronce du mystère éclos dans tous les creux."
+        ]}
+      ]
+    }
+  ]
+}
