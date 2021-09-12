@@ -15,7 +15,7 @@ Domain language got from https://www.juicyenglish.com/blog/parts-of-a-poem.
 
 This project has the main goal of practicing hexagonal architecture with a small use case.
 
-It is written in Typescript.
+It is written in Typescript with (obviously) TDD.
 
 Trainning built with [Nest](https://github.com/nestjs/nest)
 
