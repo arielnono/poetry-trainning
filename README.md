@@ -3,7 +3,19 @@
 </p>
 
 ## Description
-Domain language got from https://www.juicyenglish.com/blog/parts-of-a-poem
+### Use case
+with a console the user must be able to display a Poem
+### Architecture
+<p align="center">
+  <a href="https://blog.octo.com/architecture-hexagonale-trois-principes-et-un-exemple-dimplementation/" target="blank"><img src="archi_hexa_02-1024x526.png" alt="Architecture" /></a>
+</p>
+
+### Implementation info
+Domain language got from https://www.juicyenglish.com/blog/parts-of-a-poem.
+
+This project has the main goal of practicing hexagonal architecture with a small use case.
+
+It is written in Typescript.
 
 Trainning built with [Nest](https://github.com/nestjs/nest)
 
